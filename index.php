@@ -6,13 +6,13 @@
     <title>Form PHP</title>
 </head>
 <body>
-    <h2>Inserisci il paragrafo e la parola da censurare</h2>
-    <form action="form.php" method="GET">
-        <label for="paragrafo">Paragrafo:</label><br>
-        <textarea id="paragrafo" name="paragrafo" rows="4" cols="50"></textarea><br><br>
-        <label for="parola">Parola da censurare:</label><br>
-        <input type="text" id="parola" name="parola"><br><br>
-        <input type="submit" value="Invia">
+    <h2>Insert a Paragraph and a Word that you want ***CENSORED***</h2>
+    <form action="./form.php" method="GET">
+        <label for="paragraph">Paragraph:</label><br>
+        <textarea name="paragraph" rows="2" cols="30"></textarea><br>
+        <label for="word">Censored Word :</label><br>
+        <input type="text" name="word"><br>
+        <button type="submit" > SEND </button>
     </form>
 </body>
 </html>
